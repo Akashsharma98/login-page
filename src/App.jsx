@@ -49,7 +49,14 @@ function App() {
   return (
     <div
       className="w-full h-screen bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: "url('/public/images/Bluetooth-Controlled-Robot-1 last.jpg')" }}
+      // style={{ backgroundImage: "url('/public/images/Bluetooth-Controlled-Robot-1 last.jpg')," }}
+       style={{
+    backgroundImage: "url('/images/Bluetooth-Controlled-Robot-1-last.jpg')",
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    minHeight: '100vh',
+  }}
     >
       <div className="flex flex-col items-center justify-center bg-white bg-opacity-80 rounded-lg p-6 shadow-lg w-[90%] max-w-sm">
         <div className="flex space-x-4 mb-6">
